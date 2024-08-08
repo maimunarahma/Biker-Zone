@@ -1,0 +1,108 @@
+ 
+   
+     .poppins-thin {
+      font-family: "Poppins", sans-serif;
+      font-weight: 100;
+      font-style: normal;
+    }
+   
+   *{
+    margin: 0 auto;
+   }
+ 
+ .header-section{
+     background-color: rgb(38, 70, 83);
+  }
+    .header-container{
+      width: 90%;
+      margin-bottom: 5%;
+   
+    }
+  .display-flex{
+     display: flex;
+  }
+    .menubar{
+        display: none;
+    }
+    nav{
+      margin-left: 50%;
+      padding: 2% 0;
+      color: white;
+      font-weight: 500;
+      font-size: 16px;
+    }
+    ul{
+      align-items: center;
+    }
+    li{
+      list-style: none;
+      margin-right: 2%;
+    }
+     .login-btn{
+      width: 90px;
+      height: 45px;
+      padding: 10px 24px;
+      background-color: rgb(231, 111, 81);
+      color: white;
+      border-radius: 5px;
+      border: none;
+     }
+
+      .header-content{
+          padding: 5% ;
+          color: white;
+               }
+               .header-content h1{
+                  font-size: 48px;
+                  font-weight: 600;
+                  margin-bottom: 2%;
+               }
+               .header-content p{
+                  font-size: 14px;
+                  font-weight: 300;
+                  margin-bottom: 3%;
+                  color: rgb(224, 224, 224);
+               }
+       
+    #big-font{
+       font-size: 16px;
+    }
+    .purchase-btn{
+       width: 168px;
+       height: 45px;
+       padding: 10px;
+       background-color: rgb(231, 111, 81);
+       color: white;
+       border-radius: 5px;
+       border: none;
+       font-size: 16px;
+       font-weight: 500;
+    }
+
+
+  /* featured-bikes */
+    .featured-bikes-container{
+      width: 80%;
+    }
+    .featured-bike-content h1{
+       font-size: 48px;
+       font-weight: 600;
+       text-align: center;
+    }
+    .featured-bike-content p{
+      font-weight: 600;
+      font-size: 14px;
+      text-align: center;
+    }
+    hr{
+      width: 58px;
+      height: 1px;
+      background-color: red;
+      margin: 1%;
+      text-align: center;
+    }
+     .feature-bike-image{
+      margin: 3% 0;
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+     }
