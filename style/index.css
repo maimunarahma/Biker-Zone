@@ -38,6 +38,9 @@
       list-style: none;
       margin-right: 2%;
     }
+      .header-description{
+         align-items: center;
+      }
      .login-btn{
       width: 90px;
       height: 45px;
@@ -106,3 +109,93 @@
       display: grid;
       grid-template-columns: repeat(3,1fr);
      }
+     .latest-cards{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 3%;
+     }
+     .latest-cards h1{
+     font-weight:600;
+     font-size:28px;
+     }
+     .latest-cards p{
+      font-weight:400;
+      font-size:14px;
+      color: rgb(108, 108, 108);
+     }
+     /* latest news */
+      .latest-container{
+         width: 70%;
+      }
+       .latest-content{
+         font-size: 48px;
+         font-weight: 600;
+         text-align: center;
+         margin-bottom: 3%;
+       }
+       .cards{
+          text-align: left;
+          border: 0.2px solid rgb(108,108,108);
+          padding: 3%;
+       }
+       .read-more{
+                 width: 160px;
+                 height: 57px;
+                 background-color: white;
+                 color: white;
+                 padding: 15px;
+                 border: 2px solid  rgb(231, 111, 81);
+                 color:  rgb(231, 111, 81);
+                 border-radius: 5px;
+                 font-weight: 500;
+                 font-size: 18px;
+       } 
+          #different-color{
+              border: none;
+              color: white;
+              background-color: rgb(231, 111, 81);
+          }
+
+          /* happy */
+          .happy-container{
+             width: 70%;
+          }
+          .happy-content h1{
+              text-align: center;
+              font-size: 48px;
+              font-weight: 600;
+          }
+          .client-card{
+             display: grid;
+             grid-template-columns: repeat(3,1fr);
+             gap: 45px;
+          }
+          .happy-card{
+            margin: 4% 0;
+            padding: 40px 35px;
+            flex-direction: column;
+            border: 1px solid rgb(222, 222, 222);
+            border-radius: 5px;
+          }
+          .happy-card img{
+            width: 40%;
+           
+          }
+          #star{
+             width: 5%;
+             gap: -2%;
+             margin-bottom: 2%;
+             
+          }
+          .happy-card p{
+            color: rgb(108, 108, 108);
+            font-size: 16px;
+            font-weight: 400;
+            margin-bottom: 2%;
+          }
+          .happy-card h5{
+              font-weight: 600;
+              font-size: 14px;
+              color: rgb(35, 166, 240);
+              margin-bottom: 1%;
+          }

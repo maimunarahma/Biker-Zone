@@ -1,0 +1,38 @@
+@media screen and (max-width:576px) {
+    ul>li{
+        display: none;
+    }
+    .menubar{
+         display: block;
+         margin:40px 24px 0 150px;
+    }
+    
+    .header-description {
+       
+        flex-direction: column;
+      
+       
+    }
+    .header-content h1{
+        font-weight: 600;
+        font-size: 36px;
+    }
+    .feature-bike-image,
+    .latest-cards,
+    .client-card{
+        grid-template-columns: repeat(1,1fr);
+    }
+    /* feature-bike */
+    .featured-bike-content h1{
+        font-size: 25px;
+        font-weight: 600;
+}
+    .feature-bike-image img{
+        width: 95%;
+    }
+    /* laatest-news */
+    .latest-cards h1{
+        font-size: 20px;
+        font-weight: 600;
+}
+}
