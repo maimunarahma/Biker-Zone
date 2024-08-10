@@ -5,7 +5,13 @@
       font-weight: 100;
       font-style: normal;
     }
-   
+    .manrope-normal {
+      font-family: "Manrope", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+    }
+    
    *{
     margin: 0 auto;
    }
@@ -135,7 +141,8 @@
        }
        .cards{
           text-align: left;
-          border: 0.2px solid rgb(108,108,108);
+          border: 1px solid rgb(222, 222, 222);
+          border-radius: 5px;
           padding: 3%;
        }
        .read-more{
@@ -199,3 +206,74 @@
               color: rgb(35, 166, 240);
               margin-bottom: 1%;
           }
+          .queries-container{
+            width: 80%;
+            /* border: 2px solid red; */
+            
+          }
+          .queries-description{
+            align-items: center;
+          }
+          .queries-content h1{
+              text-align: center;
+              margin: 5% 0;
+          }
+       /* .frequently-asked-question{
+         text-align: left;
+       } */
+       .default-question,
+       .archive-question{
+         padding: 20px 24px;
+         margin-bottom: 13px;
+         border-radius: 5px;
+         text-align: left;
+         align-items: center;
+         gap: 37px;
+       }
+       .default-question h1,
+       .archive-question h5{
+        font-weight: 500;
+        font-size: 20px;
+        /* border: 2px solid black; */
+       }
+       .default-question p{
+         font-weight: 400;
+         font-size: 16px;
+         color: rgb(126, 132, 140);
+       }
+       .default-flex{
+          align-items: center;
+       }
+       .queries-content{
+        margin-bottom: 200px;
+       }
+       /* footer */
+       .footer-section{
+         background-color: black;
+         color: white;
+         font-weight: 400;
+         font-size: 16px;
+       }
+       .footer-container{
+         width: 80%;
+       }
+       .footer-content{
+         align-items: center;
+         padding: 56px 100px 112px 90px;
+       }
+        .footer-icon{
+          flex-direction: column;
+        }
+        .footer-icon h3,
+        .footer-icon img{
+          margin-bottom: 5%;
+          align-items: center;
+        }
+        .footer-flex{
+          align-items: center;
+          gap: 3px;
+        }
+        .footer-grid{
+          display: grid;
+          grid-template-columns: repeat(6,1fr);
+        }
